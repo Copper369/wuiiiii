@@ -72,7 +72,6 @@
     }
     nav a:hover {
       background: rgba(0, 255, 255, 0.35);
-      color: #fff;
     }
     section {
       max-width: 800px;
@@ -351,7 +350,7 @@
   color: #00eaff;
   margin-bottom: 0.6rem;
 }
-.flip-card-back <a> {
+.flip-card-back a {
   color: #00eaff;
   margin-bottom: 0.6rem;
 }
@@ -433,5 +432,21 @@
   font-size: 0.95rem;
   color: #aad8ff;
 }
+a:link {
+  color: #00eaff; /* A bright cyan color */
+}
 
+/* Style for a link that has been visited */
+a:visited {
+  color: #aad8ff; /* A lighter, less saturated blue */
+}
 
+/* Style for a link when you mouse over it */
+a:hover {
+  color: #ffffff; /* White color on hover */
+}
+
+/* Style for a link at the moment it is clicked */
+a:active {
+  color: #ff00ff; /* A magenta color when active */
+}
