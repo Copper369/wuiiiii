@@ -351,7 +351,10 @@
   color: #00eaff;
   margin-bottom: 0.6rem;
 }
-
+.flip-card-back a {
+  color: #00eaff;
+  margin-bottom: 0.6rem;
+}
 @media (max-width: 900px) {
   .flip-card {
     width: 100%;
@@ -430,4 +433,5 @@
   font-size: 0.95rem;
   color: #aad8ff;
 }
+
 
