@@ -351,7 +351,7 @@
   color: #00eaff;
   margin-bottom: 0.6rem;
 }
-.flip-card-back a {
+.flip-card-back <a> {
   color: #00eaff;
   margin-bottom: 0.6rem;
 }
@@ -433,4 +433,5 @@
   font-size: 0.95rem;
   color: #aad8ff;
 }
+
 
